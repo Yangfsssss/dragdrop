@@ -1,0 +1,31 @@
+body {
+    background-color: darksalmon;
+}
+
+.empty {
+    display: inline-block;
+    width: 160px;
+    height: 140px;
+    background-color: #ffffff;
+    margin: 5px;
+    border: 3px solid salmon;
+}
+
+.fill {
+    background-image: url("./03.gif");
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 150px;
+    height: 130px;
+    cursor: pointer;
+}
+
+.hold{
+    border: solid 5px #ccc;
+}
+
+.hoverd{
+    background: #f4f4f4;
+    border-style: dashed;
+}
